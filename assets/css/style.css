@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;700&family=Staatliches&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #f5e6ff;
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header img {
+    height: 70px;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li {
+    padding: 0 20px;
+    transition: all .2s ease-in-out; 
+}
+
+ul li:hover {
+    transform: scale(1.1); 
+}
+
+li a {
+    color: #141d36;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+li a:hover {
+    color: #984ddd;
+}
+
+div button {
+    background-color: #984ddd;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+div button:hover {
+    transform: scale(1.1); 
+}
+
+div button a {
+    color: #f5e6ff;
+    font-size: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+/* main */
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+main img {
+    height: 560px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section h1 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #984ddd;
+}
+
+section p {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    color: #141d36;
+    width: 35vw;
+    margin-top: 10px;
+}
+
+section button {
+    cursor: pointer;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: #f5e6ff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition: all .2s ease-in-out;
+}
+
+section button:hover {
+    transform: scale(1.1); 
+}
+
+section button a {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #984ddd;
+}
